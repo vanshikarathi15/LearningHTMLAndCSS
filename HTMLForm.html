@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple form</title>
+</head>
+<body>
+    <h1><i>Know About Yourself</i></h1>
+    <h4>So here is all one must explore about yourself.Fill out the form and know yourself better.Dont try to fool yourself by entering wrong answers!</h4>
+    <form>
+        <label for="Username" ><b>GOOD NAME</b></label><br>
+        <input type="char" id ="Username" required placeholder="Rohan"><br>
+        YOUR GENDER:<br>
+        <input type="radio" name="gender" value="f">MALE<br>
+        <input type="radio" name="gender" value="m">FE MALE<br>
+        <input type="radio" name="gender" value="other" checked>other<br>
+        <label for="age" ><b>BORN YEAR</b></label><br>
+        <input type="number" id ="age" required placeholder="2000"><br>
+        <label for="hobby" ><b>MY HOBBY</b></label><br>
+        <input type="char" id ="hobby" required placeholder="sketching"><br>
+        <label for="range" ><b>Time I give to my hobby</b></label><br>
+        <input type="range" id ="range" required min="1" max="100" step="5"><br>
+        <label for="Url"><b>Favourite Site accross the web </b></label><br>
+        <input type="url" id ="Url" required placeholder="pinterest.com"><br>
+        <label for="Username" ><b>The Best week</b></label><br>
+        <input type="week" id ="Username" required><br>
+        <label for="email" ><b>We can mail you at</b></label><br>
+        <input type="email" id ="email" required placeholder="abc@def.com"><br>
+        <label for="time" ><b>Best Time To Contact you</b></label><br>
+        <input type="time" id ="time" required placeholder="04:00 PM"><br>
+        CINEMA U LIKE:<br>
+        <input type="checkbox" name="cinema" value ="Bollywood">Bollywood<br>
+        <input type="checkbox" name="cinema" value ="Tollywood">Tollywood<br>
+        <input type="checkbox" name="cinema" value ="Pollywood">Pollywood<br>
+        <label for="hidden" ><b>Secret</b></label><br>
+        <input type="hidden" id="hidden" value="secret" required >
+        <label for="pass" ><b>PASSWORD</b></label>
+        <input type="password" id="pass" required><br>
+        
+        
+        <input type="submit" >
+
+    </form>
+</body>
