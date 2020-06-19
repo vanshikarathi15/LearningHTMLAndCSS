@@ -1,0 +1,16 @@
+.class{
+    background-color:red;
+    padding:10px;
+}
+
+#new{
+    text-transform: uppercase;
+    background-color: gray;
+}
+h1{
+    font-size:60px;
+    color:red;
+}
+p{
+    color:greenyellow;
+}
