@@ -1,0 +1,20 @@
+#parent{
+    height:70vh;
+    width:150vw;
+    background-color: indigo;
+}
+#child{
+    height:50%;
+    width:60%;
+    background-color: lawngreen;
+}
+#viewport{
+    height:70vh;
+    width:150vw;
+    background-color: red;
+}
+#rem{
+    height:50px;
+    width:60px;
+    background-color:turquoise;
+}

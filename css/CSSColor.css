@@ -1,0 +1,20 @@
+#name{
+    height:250px;
+    width:300px;
+    background-color:cyan;
+}
+#rgb{
+    height:200px;
+    width:350px;
+    background-color:rgb(200,50,10);
+}
+#hsl{
+    height:200px;
+    width:350px;
+    background-color:hsl(78,20%,50%);
+}
+#hsla{
+    height:200px;
+    width:350px;
+    background-color:hsla(209,200%,50%,0.4);
+}
