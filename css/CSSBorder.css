@@ -1,0 +1,25 @@
+#new{
+    background-color: violet;
+    height:300px;
+    width:400px;
+    border:  royalblue solid 3px;
+}
+#width{
+    background-color: seagreen;
+    height:300px;
+    width:400px;
+    border-width: 20px 10px 30px 50px;
+    border-style:double;
+    border-color: springgreen;
+}
+#radius{
+    background-color: goldenrod;
+    height:300px;
+    width:400px;
+    border: 5px solid orangered;
+    border-radius: 7px;
+}
+#text{
+    border-left: 15px solid steelblue;
+    border-bottom-left-radius:3px;
+}

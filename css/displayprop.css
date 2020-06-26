@@ -1,0 +1,18 @@
+span{
+    display:block;
+    height:200px;
+    width:300px;
+    background-color: magenta;
+}
+#color{
+    background-color: mediumspringgreen;
+}
+div{
+    display: inline-block;
+}
+#new{
+    height:200px;
+    width:300px;
+    background-color: olivedrab;
+    margin:40px;
+}

@@ -1,0 +1,10 @@
+#image{
+    height:90vh;
+    width:85vw;
+    background-image:url('../image/sunset.jpg'),url('../image/nature.jpg'); 
+    background-repeat: no-repeat;
+    background-size:600px;
+    background-position: center;
+    background-attachment:fixed;
+
+}
